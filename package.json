@@ -1,0 +1,13 @@
+{
+  "name": "Famous Workouts",
+  "version": "0.0.1",
+  "scripts": {
+    "deploy": "grunt s3"
+  },
+  "author": "freeman",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-s3": "^0.2.0-alpha.3"
+  }
+}

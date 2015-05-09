@@ -1,0 +1,195 @@
+{
+	"famous":"workouts",
+	"last-workout-added":"2015-05-07",
+	"copyright":"FamousWorkouts.com 2015!",
+	"workouts":[
+		{
+			"id":1,
+			"name":"The Rock",
+			"photo":"/images/workouts/the-rock.jpg",
+			"routines":[
+				{
+					"name":"Dumbbell bench press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Barbell incline bench press",
+					"amount":"3 x 12"
+				},
+				{
+					"name":"Leg press",
+					"amount":"4 x 25"
+				},
+				{
+					"name":"Calf raises",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Barbell curls",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Dips",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Lat pulldown",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Barbell shrug",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Dumbbell shoulder press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Standing barbell military press",
+					"amount":"4 x 12"
+				}
+			]
+		},
+		{
+			"id":2,
+			"name":"Zyzz",
+			"photo":"/images/workouts/zyzz.jpg",
+			"routines":[
+				{
+					"name":"Dumbbell bench press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Barbell incline bench press",
+					"amount":"3 x 12"
+				},
+				{
+					"name":"Leg press",
+					"amount":"4 x 25"
+				},
+				{
+					"name":"Calf raises",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Barbell curls",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Dips",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Lat pulldown",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Barbell shrug",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Dumbbell shoulder press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Standing barbell military press",
+					"amount":"4 x 12"
+				}
+			]
+		},
+		{
+			"id":3,
+			"name":"Chris Hoy",
+			"photo":"/images/workouts/chris-hoy.jpg",
+			"routines":[
+				{
+					"name":"Dumbbell bench press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Barbell incline bench press",
+					"amount":"3 x 12"
+				},
+				{
+					"name":"Leg press",
+					"amount":"4 x 25"
+				},
+				{
+					"name":"Calf raises",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Barbell curls",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Dips",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Lat pulldown",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Barbell shrug",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Dumbbell shoulder press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Standing barbell military press",
+					"amount":"4 x 12"
+				}
+			]
+		},
+		{
+			"id":4,
+			"name":"Paul Walker",
+			"photo":"/images/workouts/paul-walker.jpg",
+			"routines":[
+				{
+					"name":"Dumbbell bench press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Barbell incline bench press",
+					"amount":"3 x 12"
+				},
+				{
+					"name":"Leg press",
+					"amount":"4 x 25"
+				},
+				{
+					"name":"Calf raises",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Barbell curls",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Dips",
+					"amount":"3 x failure"
+				},
+				{
+					"name":"Lat pulldown",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Barbell shrug",
+					"amount":"4 x 15"
+				},
+				{
+					"name":"Dumbbell shoulder press",
+					"amount":"4 x 12"
+				},
+				{
+					"name":"Standing barbell military press",
+					"amount":"4 x 12"
+				}
+			]
+		}
+	]
+}

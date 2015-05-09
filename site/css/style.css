@@ -1,0 +1,204 @@
+@import url(webfont.css);
+
+body {
+	font-family: "Karla", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color: #333;
+	margin:0px;
+	padding:0px;
+	background:rgb(51,163,255);
+}
+
+header {
+	text-align:center;
+	font-weight:bold;
+	line-height:80px;
+	font-size:60px;
+	height:80px;
+	letter-spacing: -6px;
+	padding:40px 0px;
+	color:#FFF;
+	text-shadow:1px 1px 0px #555;
+}
+@media screen and (max-width:600px){
+	header{
+		font-size:70px;
+		letter-spacing:0px;
+	}
+}
+
+footer{
+	text-align:center;
+	padding:40px 20px;
+	font-size:18px;
+	color:#FFF;
+	line-height:24px;
+	text-shadow:1px 1px 0px #555;
+}
+
+header .wrap{
+	padding-left:90px;
+	padding-right:90px;
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
+}
+header .wrap .lefticon{
+	width:80px;
+	height:80px;
+	background-image:url(../images/muscle/1.png);
+	background-position:left center;
+	background-size:80px 80px;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+header .wrap .righticon{
+	width:80px;
+	height:80px;
+	background-image:url(../images/thumb/1.png);
+	background-position:left center;
+	background-size:80px 80px;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+header .wrap span.title:after{
+	content:'Famous Workouts!';
+}
+@media screen and (max-width:600px){
+	header .wrap span.title:after{
+		content:'FW!';
+	}
+}
+
+#page{
+	text-align:center;
+	padding:0px 10px;
+	max-width:700px;
+	margin:0 auto;
+	transition:opacity 0.2s;
+	opacity:1;
+}
+
+#page.hidden{
+	opacity:0;
+}
+
+#page .loading{
+	margin:80px 0px;
+	font-size:18px;
+	color:#FFF;
+}
+
+#page .workout_tile{
+	display:inline-block;
+	margin:0px 5px;
+	margin-bottom:10px;
+	position:relative;
+	cursor:pointer;
+}
+
+#page .workout_tile img{
+	width:160px;
+}
+@media screen and (max-width:320px){
+	#page .workout_tile img{
+		width:140px;
+	}
+}
+
+#page .workout_tile .name{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	line-height:40px;
+	font-size:18px;
+	background:rgba(0,0,0,0.7);
+	color:#FFF;
+	font-weight:bold;
+	text-shadow:1px 1px 0px #000;
+	letter-spacing:-1px;
+}
+
+#page .workout_page_frame .frame_border{
+	box-shadow: 0px 0px 36px rgba(0,0,0,0.2), inset 0px 0px 10px rgba(0,0,0,0.4), inset 25px 25px 0px #d4ab13, inset -25px -25px 0px #d4ab13;
+	border: 10px solid #EEC015;
+	padding:25px;
+	display:inline-block;
+}
+@media screen and (max-width:600px){
+	#page .workout_page_frame .frame_border{
+		box-shadow: 0px 0px 36px rgba(0,0,0,0.2), inset 0px 0px 10px rgba(0,0,0,0.4), inset 15px 15px 0px #d4ab13, inset -15px -15px 0px #d4ab13;
+		padding:15px;
+	}
+}
+
+#page .workout_page_frame .frame_border .frame_inset{
+	position:relative;
+}
+
+@media screen and (max-width:600px){
+	#page .workout_page_frame .frame_border .frame_inset img{
+		width:200px;
+	}
+}
+
+#page .workout_page_frame .frame_border .name{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	background:rgba(0,0,0,0.7);
+	color:#FFF;
+	line-height:60px;
+	font-size:24px;
+	font-weight:bold;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.8);
+}
+#page .workout_page_frame .frame_border .name:before{
+	content:'GET RIPPED LIKE';
+	width:100%;
+	display:block;
+	font-size:16px;
+	line-height:30px;
+	margin-bottom:-10px;
+	margin-top:10px;
+	letter-spacing:4px;
+}
+@media screen and (max-width:600px){
+	#page .workout_page_frame .frame_border .name:before{
+		letter-spacing:2px;
+	}
+}
+
+#page .workout_page_frame table {
+	margin:40px auto;
+	font-size:18px;
+	border-spacing:5px;
+	text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+}
+
+#page .workout_page_frame table tr{
+	background:rgba(0,0,0,0.4);
+}
+
+#page .workout_page_frame table tr td{
+	color:#FFF;
+	padding:10px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+#page .workout_page_frame .heading{
+	background:rgba(0,0,0,0.6);
+	font-weight:bold;
+}
+
+
+.frame_border {
+	
+}
