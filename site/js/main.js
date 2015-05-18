@@ -19,9 +19,29 @@ var changeMuscle = function(){
 	// emojiNumber++;
 };
 
+var shuffle = function(array){
+	var currentIndex = array.length, temporaryValue, randomIndex ;
+
+	// While there remain elements to shuffle...
+	while (0 !== currentIndex) {
+
+		// Pick a remaining element...
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
+
+		// And swap it with the current element.
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
+
+	return array;
+}
+
 //load workouts
 var httpCallback = function(){
 	_FW.workouts = JSON.parse(this.responseText)["workouts"];
+	_FW.workouts = shuffle(_FW.workouts);
 
 	document.querySelector("header .wrap").addEventListener("click", function(){
 		render("home", _FW.workouts, true);
@@ -30,6 +50,13 @@ var httpCallback = function(){
 	var path = location.pathname;
 	if(path === "/"){
 		render("home", _FW.workouts);
+
+		var url = "/";
+
+		history.replaceState({
+			"pageType":"home",
+			"pageData":_FW.workouts
+		}, null, url);
 	} else {
 		//strip query strings, remove /, replace - with a space
 		path = path.split("?")[0].split("/").join("").split("-").join(" ");
@@ -71,9 +98,19 @@ var render = function(pageType, pageData, triggerState){
 	switch(pageType){
 		case "home":
 
+			// var menu = document.createElement("div");
+			// menu.id = "menu";
+			// menu.innerHTML = "<button>Guys</button><button disabled>Girls</button><button>Random</button>";
+			// page.appendChild(menu);
+
 			pageData.forEach(function(workout){
 				var el = document.createElement("div");
 				el.className = "workout_tile";
+				
+				if(workout.photo === undefined){
+					workout.photo = "/images/workouts/" + workout.name.toLowerCase().replace(/ /g, "-") + ".jpg";
+				}
+
 				el.innerHTML = '<img src="' + workout.photo + '"><div class="name">' + workout.name + '</div>';
 				el.__workout = workout;
 
@@ -85,9 +122,18 @@ var render = function(pageType, pageData, triggerState){
 			});
 
 			//format url
-			if(triggerState){
-				var url = "/";
+			var url = "/";
+			var title = "Famous Workouts!";
+			document.querySelector("title").innerHTML = title;
 
+			if(window.ga !== undefined){
+				window.ga('send', 'pageview', {
+					'page': url,
+					'title': title
+				});
+			}
+
+			if(triggerState){
 				history.pushState({
 					"pageType":pageType,
 					"pageData":pageData
@@ -96,6 +142,10 @@ var render = function(pageType, pageData, triggerState){
 
 		break;
 		case "workout":
+
+			if(pageData.photo === undefined){
+				pageData.photo = "/images/workouts/" + pageData.name.toLowerCase().replace(/ /g, "-") + ".jpg";
+			}
 
 			var workout_page_frame = document.createElement("div");
 			workout_page_frame.className = "workout_page_frame";
@@ -125,9 +175,18 @@ var render = function(pageType, pageData, triggerState){
 			page.appendChild(workout_page_frame);
 
 			//format url
-			if(triggerState){
-				var url = pageData.name.toLowerCase().split(" ").join("-");
+			var url = pageData.name.toLowerCase().split(" ").join("-");
+			var title = pageData.name + "'s Epic Workout - Famous Workouts!";
+			document.querySelector("title").innerHTML = title;
 
+			if(window.ga !== undefined){
+				window.ga('send', 'pageview', {
+					'page': url,
+					'title': title
+				});
+			}
+
+			if(triggerState){
 				history.pushState({
 					"pageType":pageType,
 					"pageData":pageData

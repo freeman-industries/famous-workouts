@@ -1,195 +1,756 @@
 {
-	"famous":"workouts",
-	"last-workout-added":"2015-05-07",
-	"copyright":"FamousWorkouts.com 2015!",
-	"workouts":[
-		{
-			"id":1,
-			"name":"The Rock",
-			"photo":"/images/workouts/the-rock.jpg",
-			"routines":[
-				{
-					"name":"Dumbbell bench press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Barbell incline bench press",
-					"amount":"3 x 12"
-				},
-				{
-					"name":"Leg press",
-					"amount":"4 x 25"
-				},
-				{
-					"name":"Calf raises",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Barbell curls",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Dips",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Lat pulldown",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Barbell shrug",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Dumbbell shoulder press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Standing barbell military press",
-					"amount":"4 x 12"
-				}
-			]
-		},
-		{
-			"id":2,
-			"name":"Zyzz",
-			"photo":"/images/workouts/zyzz.jpg",
-			"routines":[
-				{
-					"name":"Dumbbell bench press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Barbell incline bench press",
-					"amount":"3 x 12"
-				},
-				{
-					"name":"Leg press",
-					"amount":"4 x 25"
-				},
-				{
-					"name":"Calf raises",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Barbell curls",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Dips",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Lat pulldown",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Barbell shrug",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Dumbbell shoulder press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Standing barbell military press",
-					"amount":"4 x 12"
-				}
-			]
-		},
-		{
-			"id":3,
-			"name":"Chris Hoy",
-			"photo":"/images/workouts/chris-hoy.jpg",
-			"routines":[
-				{
-					"name":"Dumbbell bench press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Barbell incline bench press",
-					"amount":"3 x 12"
-				},
-				{
-					"name":"Leg press",
-					"amount":"4 x 25"
-				},
-				{
-					"name":"Calf raises",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Barbell curls",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Dips",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Lat pulldown",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Barbell shrug",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Dumbbell shoulder press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Standing barbell military press",
-					"amount":"4 x 12"
-				}
-			]
-		},
-		{
-			"id":4,
-			"name":"Paul Walker",
-			"photo":"/images/workouts/paul-walker.jpg",
-			"routines":[
-				{
-					"name":"Dumbbell bench press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Barbell incline bench press",
-					"amount":"3 x 12"
-				},
-				{
-					"name":"Leg press",
-					"amount":"4 x 25"
-				},
-				{
-					"name":"Calf raises",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Barbell curls",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Dips",
-					"amount":"3 x failure"
-				},
-				{
-					"name":"Lat pulldown",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Barbell shrug",
-					"amount":"4 x 15"
-				},
-				{
-					"name":"Dumbbell shoulder press",
-					"amount":"4 x 12"
-				},
-				{
-					"name":"Standing barbell military press",
-					"amount":"4 x 12"
-				}
-			]
-		}
-	]
+  "famous": "workouts",
+  "last_workout_added": "2015-05-16",
+  "copyright": "FamousWorkouts.com 2015!",
+  "workouts": [{
+    "name": "Arnold Schwarzenegger",
+    "routines": [{
+      "name": "Bench Press",
+      "amount": "3 x 10"
+    }, {
+      "name": "Incline Bench Press",
+      "amount": "3 x 10"
+    }, {
+      "name": "Bent Over Rows",
+      "amount": "3 x 10"
+    }, {
+      "name": "Chin Ups",
+      "amount": "3 x 10"
+    }, {
+      "name": "Crunches",
+      "amount": "5 x 25"
+    }, {
+      "name": "Standing Barbell Curls",
+      "amount": "3 x 10"
+    }, {
+      "name": "Seated Dumbbell Curls",
+      "amount": "3 x 10"
+    }, {
+      "name": "Wrist Curls",
+      "amount": "3 x 10"
+    }, {
+      "name": "Reverse Wrist Curls",
+      "amount": "3 x 10"
+    }, {
+      "name": "Crunches",
+      "amount": "5 x 10"
+    }]
+  }, {
+    "name": "Shemar Moore",
+    "routines": [{
+      "name": "Diamond Grip Pushups",
+      "amount": "3 x 8"
+    }, {
+      "name": "Walkover Pushups",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dumbbell Shrugs",
+      "amount": "3 x 8"
+    }, {
+      "name": "Medicine Ball Crunches",
+      "amount": "3 x 8"
+    }, {
+      "name": "Preacher Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Standing Dumbbell Curl",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dumbbell Hammer Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Incline Dumbbell Press",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dumbbell Shrugs",
+      "amount": "3 x 8"
+    }, {
+      "name": "ButterFlys Crunches",
+      "amount": "3 x 8"
+    }]
+  }, {
+    "name": "Zac Efron",
+    "routines": [{
+      "name": "Dumbbell Flys",
+      "amount": "3 x 20"
+    }, {
+      "name": "Dips",
+      "amount": "3 x 20"
+    }, {
+      "name": "Dumbbell Bench Press",
+      "amount": "3 x 20"
+    }, {
+      "name": "Tricep Extensions",
+      "amount": "3 x 20"
+    }, {
+      "name": "Bicycle Crunches",
+      "amount": "3 x 20"
+    }, {
+      "name": "Twisting Plank (15 seconds)",
+      "amount": "3 x 20"
+    }, {
+      "name": "Forward Lunge with Dumbbells",
+      "amount": "3 x 20"
+    }, {
+      "name": "Forearm Plank (15 seconds)",
+      "amount": "3 x 20"
+    }, {
+      "name": "Twisting Plank (15 seconds)",
+      "amount": "3 x 20"
+    }]
+  }, {
+    "name": "Matthew McConaughey",
+    "routines": [{
+      "name": "Dumbbell Squat And Press",
+      "amount": "1 x 10"
+    }, {
+      "name": "Forearm Plank With Leg Lift (1 minute)",
+      "amount": "1 x 1"
+    }, {
+      "name": "Walking Plank",
+      "amount": "1 x 30"
+    }, {
+      "name": "Incline Pushups",
+      "amount": "1 x 10"
+    }, {
+      "name": "Plank",
+      "amount": "1 x 20"
+    }, {
+      "name": "Dumbbell Rows",
+      "amount": "1 x 10"
+    }, {
+      "name": "Triceps Extensions",
+      "amount": "1 x 10"
+    }, {
+      "name": "Jump Rope (1 minute)",
+      "amount": "1 x 10"
+    }]
+  }, {
+    "name": "Terry Crews",
+    "routines": [{
+      "name": "Clean & Press",
+      "amount": "4 x 6"
+    }, {
+      "name": "Jump Squats",
+      "amount": "4 x 6"
+    }, {
+      "name": "Bent Over Barbell Rows",
+      "amount": "4 x 6"
+    }, {
+      "name": "Incline Bench",
+      "amount": "4 x 6"
+    }, {
+      "name": "Chest Flys",
+      "amount": "4 x 6"
+    }, {
+      "name": "Dips",
+      "amount": "4 x 6"
+    }, {
+      "name": "Running",
+      "amount": "30 minutes"
+    }]
+  }, {
+    "name": "Brad Pitt",
+    "routines": [{
+      "name": "Pushups",
+      "amount": "3 x 15"
+    }, {
+      "name": "Bench Press",
+      "amount": "3 x 15"
+    }, {
+      "name": "Pullups",
+      "amount": "3 x 15"
+    }, {
+      "name": "Seated Rows",
+      "amount": "3 x 15"
+    }, {
+      "name": "Lat Pulldowns",
+      "amount": "3 x 15"
+    }, {
+      "name": "Arnold Press",
+      "amount": "3 x 15"
+    }, {
+      "name": "Lateral Dumbbell Raises",
+      "amount": "3 x 15"
+    }, {
+      "name": "Curl Machine",
+      "amount": "3 x 15"
+    }, {
+      "name": "Cable Crossover",
+      "amount": "3 x 15"
+    }, {
+      "name": "Running",
+      "amount": "45 minutes"
+    }]
+  }, {
+    "name": "Channing Tatum",
+    "routines": [{
+      "name": "Pullups",
+      "amount": "4 x 8"
+    }, {
+      "name": "Dumbbell Rear Delt Raises",
+      "amount": "2 x 13"
+    }, {
+      "name": "Dumbbell Curls",
+      "amount": "3 x 13"
+    }, {
+      "name": "Cable Crunches",
+      "amount": "3 x 15"
+    }, {
+      "name": "Lower Back Extensions",
+      "amount": "3 x 10"
+    }, {
+      "name": "Seated Dumbbell Shoulder Press",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dumbbell Curls",
+      "amount": "3 x 13"
+    }, {
+      "name": "Side Plank",
+      "amount": "15 per side"
+    }]
+  }, {
+    "name": "Greg Plitt",
+    "routines": [{
+      "name": "Flat Dumbbell Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Incline Dumbbell Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Incline Dumbbell Flys",
+      "amount": "4 x 8"
+    }, {
+      "name": "Wide Grip Pullups",
+      "amount": "4 x 6"
+    }, {
+      "name": "Close Grip Pulldown",
+      "amount": "4 x 6"
+    }, {
+      "name": "Military Press",
+      "amount": "4 x 6"
+    }, {
+      "name": "Dumbbell Hammer Curls",
+      "amount": "4 x 6"
+    }, {
+      "name": "Squats",
+      "amount": "4 x 6"
+    }, {
+      "name": "Leg Extensions",
+      "amount": "4 x 6"
+    }]
+  }, {
+    "name": "Jason Statham",
+    "routines": [{
+      "name": "Incline Dumbbell Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Barbell Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Lat Pulldown",
+      "amount": "4 x 8"
+    }, {
+      "name": "Shoulder Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Lat Pulldowns",
+      "amount": "4 x 8"
+    }, {
+      "name": "Clean & Jerk",
+      "amount": "3 x 8"
+    }, {
+      "name": "Pullups",
+      "amount": "3 x 8"
+    }, {
+      "name": "Military Press",
+      "amount": "4 x 6"
+    }]
+  }, {
+    "name": "Zyzz",
+    "routines": [{
+      "name": "Incline Dumbbell Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Barbell Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Preacher Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Lat Pulldown",
+      "amount": "4 x 8"
+    }, {
+      "name": "Bent Over Barbell Rows",
+      "amount": "3 x 8"
+    }, {
+      "name": "Shoulder Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Lat Pulldowns",
+      "amount": "4 x 8"
+    }, {
+      "name": "Squats",
+      "amount": "3 x 8"
+    }, {
+      "name": "Clean & Jerk",
+      "amount": "3 x 8"
+    }, {
+      "name": "Pullups",
+      "amount": "3 x 8"
+    }]
+  }, {
+    "name": "50 Cent",
+    "routines": [{
+      "name": "Bench Press",
+      "amount": "4 x 12"
+    }, {
+      "name": "Decline Dumbbell Flys",
+      "amount": "3 x 12"
+    }, {
+      "name": "Arnold Press",
+      "amount": "3 x 12"
+    }, {
+      "name": "Triceps Dips",
+      "amount": "3 x 12"
+    }, {
+      "name": "Full Hanging Leg Raise",
+      "amount": "3 x 12"
+    }, {
+      "name": "Pullups",
+      "amount": "2 x 12"
+    }, {
+      "name": "Chinups",
+      "amount": "2 x 12"
+    }, {
+      "name": "Alternating Dumbbell Curl",
+      "amount": "3 x 12"
+    }, {
+      "name": "Power Cleans",
+      "amount": "3 x 12"
+    }, {
+      "name": "Barbell Standing Calf Raises",
+      "amount": "3 x 12"
+    }]
+  }, {
+    "name": "Henry Cavill",
+    "routines": [{
+      "name": "Wall Squats",
+      "amount": "2 x 10"
+    }, {
+      "name": "Flys On Rings",
+      "amount": "3 x 10"
+    }, {
+      "name": "Air Squats",
+      "amount": "4 x 25"
+    }, {
+      "name": "Seated Military Dumbbell Press",
+      "amount": "5 x 10"
+    }, {
+      "name": "Wall Squats",
+      "amount": "2 x 10"
+    }, {
+      "name": "Squats",
+      "amount": "2 x 10"
+    }, {
+      "name": "Deadlifts",
+      "amount": "4 x 8"
+    }, {
+      "name": "Sprints",
+      "amount": "6 x 100m"
+    }, {
+    	"name": "Running",
+    	"amount": "30 min"
+    }]
+  }, {
+    "name": "Hugh Jackman",
+    "routines": [{
+      "name": "Deadlifts",
+      "amount": "4 x 8"
+    }, {
+      "name": "Dumbbell Rows",
+      "amount": "4 x 8"
+    }, {
+      "name": "Lat Pulldown",
+      "amount": "4 x 8"
+    }, {
+      "name": "Squats",
+      "amount": "2 x 10"
+    }, {
+      "name": "Clean & Jerk",
+      "amount": "3 x 8"
+    }, {
+      "name": "Leg Extensions",
+      "amount": "4 x 6"
+    }, {
+      "name": "Crunches",
+      "amount": "3 x 12"
+    }, {
+      "name": "Sit-ups",
+      "amount": "4 x 16"
+    }, {
+      "name": "Sprints",
+      "amount": "6 x 100m"
+    }]
+  }, {
+    "name": "Justin Bieber",
+    "routines": [{
+      "name": "Dumbbell Flys",
+      "amount": "4 x 8"
+    }, {
+      "name": "Pushups",
+      "amount": "4 x 8"
+    }, {
+      "name": "Barbell Bicep Curls",
+      "amount": "4 x 8"
+    }, {
+      "name": "Dumbbell Curls",
+      "amount": "4 x 8"
+    }, {
+      "name": "Box Jumps",
+      "amount": "4 x 8"
+    }, {
+      "name": "Walking Lunges",
+      "amount": "4 x 8"
+    }, {
+      "name": "Dumbbell Rows",
+      "amount": "4 x 8"
+    }, {
+      "name": "Skull Crushers",
+      "amount": "4 x 8"
+    }, {
+      "name": "Barbell Military Press",
+      "amount": "4 x 8"
+    }, {
+      "name": "Reverse Flys",
+      "amount": "4 x 8"
+    }]
+  }, {
+    "name": "Taylor Lautner",
+    "routines": [{
+      "name": "Reverse Lunges",
+      "amount": "3 x 12"
+    }, {
+      "name": "Crunches",
+      "amount": "3 x 12"
+    }, {
+      "name": "Hanging Knee Raises",
+      "amount": "3 x 12"
+    }, {
+      "name": "Dumbbell Deadlifts",
+      "amount": "4 x 10"
+    }, {
+      "name": "Lat Pulldowns",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dips",
+      "amount": "3 x 8"
+    }, {
+      "name": "Decline Pushups",
+      "amount": "3 x 15"
+    }, {
+      "name": "Dips",
+      "amount": "3 x 8"
+    }, {
+      "name": "Close Grip Pushups",
+      "amount": "3 x 15"
+    }, {
+      "name": "Barbell Curls",
+      "amount": "3 x 12"
+    }]
+  }, {
+    "name": "Chris Evans",
+    "routines": [{
+      "name": "Seated Military Press Machine",
+      "amount": "3 x 15"
+    }, {
+      "name": "Pushups",
+      "amount": "4 x 15"
+    }, {
+      "name": "Leg Press",
+      "amount": "3 x failure"
+    }, {
+      "name": "Lying Leg Curl",
+      "amount": "5 x 10"
+    }, {
+      "name": "Tricep Extension",
+      "amount": "2 x 10"
+    }, {
+      "name": "Close Grip Lat Pull Down",
+      "amount": "5 x failure"
+    }, {
+      "name": "Bent Over Barbell Rows",
+      "amount": "4 x 10"
+    }, {
+      "name": "Turkish Get-up",
+      "amount": "2 x 10"
+    }, {
+      "name": "Russian Twist",
+      "amount": "2 x 20"
+    }]
+  }, {
+    "name": "Daniel Craig",
+    "routines": [{
+      "name": "Knee Raises",
+      "amount": "3 x 8"
+    }, {
+      "name": "Step-ups",
+      "amount": "3 x 10"
+    }, {
+      "name": "Incline Pushups",
+      "amount": "3 x 25"
+    }, {
+      "name": "Tricep Dips",
+      "amount": "3 x 25"
+    }, {
+      "name": "Pullups",
+      "amount": "2 x 8"
+    }, {
+      "name": "Incline Pushups",
+      "amount": "3 x 15"
+    }, {
+      "name": "Tricep Dips",
+      "amount": "3 x 15"
+    }, {
+      "name": "Lateral Raises",
+      "amount": "4 x 10"
+    }, {
+    	"name": "Deadlifts",
+    	"amount": "3 x 8"
+    }]
+  }, {
+    "name": "Ryan Gosling",
+    "routines": [{
+      "name": "Seated Cable Rows",
+      "amount": "4 x 8"
+    }, {
+      "name": "Deadlifts",
+      "amount": "2 x 5"
+    }, {
+      "name": "Seated Calf Raise",
+      "amount": "3 x 10"
+    }, {
+      "name": "Hanging Leg Raise",
+      "amount": "2 x 10"
+    }, {
+      "name": "Barbell Squat",
+      "amount": "3 x 8"
+    }, {
+      "name": "Reverse Dumbbell Lunges",
+      "amount": "3 x 5"
+    }, {
+      "name": "Bench Press",
+      "amount": "3 x 8"
+    }, {
+      "name": "Chin-ups",
+      "amount": "3 x 5"
+    }, {
+      "name": "Bicep Curls",
+      "amount": "3 x 10"
+    }, {
+      "name": "Crossover Cable Flys",
+      "amount": "3 x 10"
+    }, {
+    	"name": "Jump Rope (5 minutes)",
+    	"amount": "1 x 3"
+    }]
+  }, {
+    "name": "Chris Hemsworth",
+    "routines": [{
+      "name": "Barbell Squats",
+      "amount": "3 x 8"
+    }, {
+      "name": "Weighted Chin-ups",
+      "amount": "4 x 8"
+    }, {
+      "name": "Crunches",
+      "amount": "1 x 20"
+    }, {
+      "name": "Dips",
+      "amount": "3 x 8"
+    }, {
+      "name": "Barbell Squats",
+      "amount": "3 x 8"
+    }, {
+      "name": "Forearm Plank",
+      "amount": "1 x 20"
+    }, {
+      "name": "Deadlifts",
+      "amount": "5 x 12"
+    }, {
+      "name": "Decline Pushups",
+      "amount": "1 x 20"
+    }]
+  }, {
+    "name": "Ryan Reynolds",
+    "routines": [{
+      "name": "Hanging Leg Lifts",
+      "amount": "3 x 15"
+    }, {
+      "name": "Swiss Ball Crunches",
+      "amount": "3 x 15"
+    }, {
+      "name": "Dumbbell Chest Flys",
+      "amount": "3 x 25"
+    }, {
+      "name": "Hanging Leg Lifts",
+      "amount": "3 x 15"
+    }, {
+      "name": "Reverse Lunges",
+      "amount": "3 x 25"
+    }, {
+      "name": "Calf Raises",
+      "amount": "3 x 25"
+    }, {
+      "name": "Bicep Curls",
+      "amount": "3 x 15"
+    }, {
+      "name": "Overhead Press",
+      "amount": "3 x 25"
+    }, {
+      "name": "Close Grip Preacher Curls",
+      "amount": "3 x 25"
+    }]
+  }, {
+    "name": "Vin Diesel",
+    "routines": [{
+      "name": "Incline Dumbbell Flys",
+      "amount": "3 x 8"
+    }, {
+      "name": "Decline Bench Press",
+      "amount": "3 x 8"
+    }, {
+      "name": "Close Grip Bench Press",
+      "amount": "3 x 8"
+    }, {
+      "name": "Lat Pulldown",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dead Lifts",
+      "amount": "4 x 8"
+    }, {
+      "name": "Barbell Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Dumbbell Hammer Curls",
+      "amount": "4 x 8"
+    }, {
+      "name": "Squats",
+      "amount": "4 x 8"
+    }, {
+      "name": "Calf Raises",
+      "amount": "2 x 8"
+    }, {
+      "name": "Upright Rows",
+      "amount": "3 x 8"
+    }]
+  }, {
+    "name": "The Rock",
+    "routines": [{
+      "name": "Military Press",
+      "amount": "6 x 6"
+    }, {
+      "name": "Barbell Shrugs",
+      "amount": "5 x failure"
+    }, {
+      "name": "Wide Grip Lat Pulldown",
+      "amount": "5 x failure"
+    }, {
+      "name": "Deadlifts",
+      "amount": "6 x 6"
+    }, {
+      "name": "Squats",
+      "amount": "6 x 6"
+    }, {
+      "name": "Lying Leg Curls",
+      "amount": "4 x failure"
+    }, {
+      "name": "Preacher Curls",
+      "amount": "6 x failure"
+    }, {
+      "name": "Overhead Cable Extension",
+      "amount": "4 x failure"
+    }, {
+      "name": "Incline Dumbbell Press",
+      "amount": "5 x failure"
+    }, {
+      "name": "Dumbbell Bench Press",
+      "amount": "5 x failure"
+    }, {
+      "name": "Pushups",
+      "amount": "1 x 66"
+    }]
+  }, {
+    "name": "Bradley Cooper",
+    "routines": [{
+      "name": "Barbell Bicep Curls",
+      "amount": "3 x 6"
+    }, {
+      "name": "One Arm Dumbbell Rows",
+      "amount": "3 x 6"
+    }, {
+      "name": "Lat Pulldown",
+      "amount": "3 x 10"
+    }, {
+      "name": "Cable Crossover Flys",
+      "amount": "3 x 10"
+    }, {
+      "name": "Dumbbell Hammer Curls",
+      "amount": "4 x 6"
+    }, {
+      "name": "Dumbbell Chest Press",
+      "amount": "3 x 6"
+    }, {
+      "name": "Dumbbell Tricep Extensions",
+      "amount": "4 x 6"
+    }, {
+      "name": "Bench Press",
+      "amount": "3 x 6"
+    }, {
+      "name": "Medicine Ball Crunches",
+      "amount": "3 x 6"
+    }, {
+      "name": "Sit-ups",
+      "amount": "3 x 6"
+    }]
+  }, {
+    "name": "Sylvester Stallone",
+    "routines": [{
+      "name": "Raised Leg Crunches",
+      "amount": "3 x 8"
+    }, {
+      "name": "Incline Seated Dumbbell Curls",
+      "amount": "3 x 8"
+    }, {
+      "name": "Concentration Curls",
+      "amount": "4 x 10"
+    }, {
+      "name": "Decline Bench Sit-ups",
+      "amount": "3 x 8"
+    }, {
+      "name": "Oblique Floor Crunches",
+      "amount": "3 x 6"
+    }, {
+      "name": "Seated Calf Raises",
+      "amount": "4 x 8"
+    }, {
+      "name": "Standing Calf Raises",
+      "amount": "4 x 10"
+    }, {
+      "name": "Squats",
+      "amount": "4 x 8"
+    }, {
+      "name": "Ham String Curls",
+      "amount": "4 x 10"
+    }, {
+      "name": "Deadlifts",
+      "amount": "4 x 10"
+    }, {
+    	"name": "Sprints (100m)",
+    	"amount": "1 x 8"
+    }, {
+    	"name": "Stair Machine",
+    	"amount": "5 x 100"
+    }]
+  }]
 }
