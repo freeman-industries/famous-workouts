@@ -8,8 +8,6 @@ I put it together over a weekend or so because I couldn't think of routines to d
 
 # installation
 
-# installation
-
     npm install
 
 ... Then direct your web server at the `./site` directory and get pumped!
