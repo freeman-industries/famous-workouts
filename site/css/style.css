@@ -35,6 +35,10 @@ footer{
 	line-height:24px;
 	text-shadow:1px 1px 0px #555;
 }
+        
+footer a{
+    color:#FFF;
+}
 
 header .wrap{
 	padding-left:90px;
