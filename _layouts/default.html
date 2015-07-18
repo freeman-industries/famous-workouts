@@ -2,27 +2,33 @@
 <html>
   <head>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Famous Workouts!</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>
+        {% if page.homepage == true %}
+            {{page.title}}
+        {% else %}
+            {{page.athlete-name}}'s EPIC routine - Famous Workouts!
+        {% endif %}
+
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
   	<header>
   		<div class="wrap">
-  			<div class="lefticon"></div>
-  			<span class="title"></span>
-  			<div class="righticon"></div>
+  			<a href="/">
+                <div class="lefticon"></div>
+  			    <span class="title"></span>
+  			    <div class="righticon"></div>
+            </a>
   		</div>
   	</header>
-    <div id="instructions">
-      Rules: Every time you go to the gym, choose a Famous Workout. Change workouts every time. Always set the weight to your personal best and then break it.
-    </div>
   	<div id="page">
-  		<div class="loading">Getting pumped...</div>
+  		{{content}}
   	</div>
   	<footer>
       &copy; <script>document.write(new Date().getFullYear())</script>. Famous Workouts is free & always will be. So get pumped or <a href="http://github.com/nabilfreeman/famous-workouts">view the source code</a>!
   	</footer>
-  	
+
     <script>
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -37,8 +43,9 @@
       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
       window.ga('create', 'UA-63103394-1', 'auto');
+      window.ga('send', 'pageview');
     </script>
 
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>

@@ -8,17 +8,12 @@ I put it together over a weekend or so because I couldn't think of routines to d
 
 # installation
 
-    npm install
+    jekyll serve --port XXXX
 
-... Then direct your web server at the `./site` directory and get pumped!
+... Then direct your web server at the `./_site` directory and get pumped!
 
-Note: You might want to remove/modify the Google Analytics code at the bottom of `index.html`.
+Note: You might want to remove/modify the Google Analytics code in `_layouts/default.html`.
 
 # releasing
-In `Gruntfile.js` edit the `s3:{}` task to specify your AWS bucket region & name. You can also hardcode key and secret here but be careful with public repos.
 
-Then, run this in your CLI:
-
-    key=XXXXXX secret=XXXXXX npm run deploy
-
-You can also make a `.env` file and store the variables in there. The file is ignored by git, so you don't have to fear pushing up keys.
+    git push

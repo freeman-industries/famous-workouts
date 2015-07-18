@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="workout_page_frame">
+	<div class="frame_border">
+		<div class="frame_inset">
+			<img src="/images/workouts/{{ page.slug }}.jpg">
+			<div class="name">
+				{{ page.athlete-name }}
+			</div>
+		</div>
+	</div>
+	<table>
+		<tr class="heading">
+			<td>
+				Exercise
+			</td>
+			<td>
+				Sets x Reps
+			</td>
+		</tr>
+		{% for routine in page.routines %}
+			<tr>
+				<td>
+					{{ routine.name }}
+				</td>
+				<td>
+					{{ routine.amount }}
+				</td>
+			</tr>
+		{% endfor %}
+	</table>
+</div>

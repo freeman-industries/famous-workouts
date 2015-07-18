@@ -1,0 +1,20 @@
+---
+title: Famous Workouts! Epic celebrity routines for your gym sessions
+layout: default
+homepage: true
+---
+
+<div id="instructions">
+  Rules: Every time you go to the gym, choose a Famous Workout. Change workouts every time. Always set the weight to your personal best and then break it.
+</div>
+
+{% assign shuffled_posts = site.posts | shuffle %}
+
+{% for post in shuffled_posts %}
+	<a href="/{{ post.slug }}">
+		<div class="workout_tile">
+			<img src="/images/workouts/{{ post.slug }}.jpg">
+			<div class="name">{{ post.athlete-name }}</div>
+		</div>
+	</a>
+{% endfor %}
