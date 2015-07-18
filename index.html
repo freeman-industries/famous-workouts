@@ -1,0 +1,16 @@
+---
+title: Famous Workouts! The most original celebrity workouts
+layout: default
+---
+
+{% for post in site.posts %}
+	<a href="/workout/{{ post.slug }}.html">
+		<div class="workout_tile">
+			<img src="/images/workouts/{{ post.slug }}.jpg">
+			<div class="name">{{ post.athlete-name }}</div>
+		</div>
+	</a>
+	HI THERE
+{% endfor %}
+
+WHAT THE FUCK

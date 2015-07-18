@@ -1,0 +1,5 @@
+collections:
+  workout:
+    output: true
+
+permalink: "/:title"
