@@ -2,7 +2,14 @@
 <html>
   <head>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>{{page.title}}</title>
+    <title>
+        {% if page.homepage == true %}
+            {{page.title}}
+        {% else %}
+            {{page.athlete-name}}'s EPIC routine - Famous Workouts!
+        {% endif %}
+
+    </title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -15,9 +22,6 @@
             </a>
   		</div>
   	</header>
-    <div id="instructions">
-      Rules: Every time you go to the gym, choose a Famous Workout. Change workouts every time. Always set the weight to your personal best and then break it.
-    </div>
   	<div id="page">
   		{{content}}
   	</div>
@@ -39,8 +43,9 @@
       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
       window.ga('create', 'UA-63103394-1', 'auto');
+      window.ga('send', 'pageview');
     </script>
 
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>

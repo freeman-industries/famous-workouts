@@ -1,16 +1,22 @@
 ---
-title: Famous Workouts! The most original celebrity workouts
+title: Famous Workouts! Epic celebrity routines for your gym sessions
 layout: default
+homepage: true
 ---
 
-{% for post in site.posts %}
-	<a href="/workout/{{ post.slug }}.html">
+<div id="instructions">
+  Rules: Every time you go to the gym, choose a Famous Workout. Change workouts every time. Always set the weight to your personal best and then break it.
+</div>
+
+{% assign shuffled_posts = site.posts | shuffle %}
+
+<div class="workout_thumbs">
+{% for post in shuffled_posts %}
+	<a href="/{{ post.slug }}">
 		<div class="workout_tile">
 			<img src="/images/workouts/{{ post.slug }}.jpg">
 			<div class="name">{{ post.athlete-name }}</div>
 		</div>
 	</a>
-	HI THERE
 {% endfor %}
-
-WHAT THE FUCK
+</div>
