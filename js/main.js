@@ -44,23 +44,15 @@ var shuffle = function(array){
 
 var celebs = document.querySelector(".workout_thumbs");
 
-console.log("hey");
-
 if(celebs !== null){
-	var tiles = celebs.querySelector(".workout_tile");
-
-	console.log(tiles);
+	var tiles = celebs.querySelectorAll(".workout_tile");
 
 	shuffled = shuffle(tiles);
-
-	console.log(shuffled);
 
 	var div = document.createElement("div");
 	shuffled.forEach(function(tile){
 		div.appendChild(tile);
 	});
-
-	console.log(div);
 
 	document.querySelector(".workout_thumbs").innerHTML = div.innerHTML;
 }

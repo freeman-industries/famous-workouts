@@ -10,7 +10,6 @@ homepage: true
 
 {% assign shuffled_posts = site.posts | shuffle %}
 
-<div class="workout_thumbs">
 {% for post in shuffled_posts %}
 	<a href="/{{ post.slug }}">
 		<div class="workout_tile">
@@ -19,4 +18,3 @@ homepage: true
 		</div>
 	</a>
 {% endfor %}
-</div>
