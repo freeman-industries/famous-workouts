@@ -1,10 +1,12 @@
 # FAMOUS WORKOUTS!
 
-# http://www.famousworkouts.com
+# 🔑 http://www.famousworkouts.com
 
 Famous Workouts is a collection of full-body workouts inspired by stacked movie stars and other celebrities.
 
-I put it together over a weekend or so because I couldn't think of routines to do at the gym.
+We built it in 2015 to solve the problem of gym routine boredom. 💪
+
+Since then, we have monitored its traffic to understand Google SEO better. We also wanted to become search engine billionaries by hopping on the content train, but that didn't happen. 😭
 
 # installation
 
