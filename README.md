@@ -1,6 +1,6 @@
 # FAMOUS WORKOUTS!
 
-# 🔑 http://www.famousworkouts.com
+# 🔑 http://www.famousworkouts.freemans.website
 
 Famous Workouts is a collection of full-body workouts inspired by stacked movie stars and other celebrities.
 
