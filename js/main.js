@@ -13,10 +13,10 @@ var changeMuscle = function(){
 	}
 
 	var muscleDiv = document.querySelector("header .wrap .lefticon");
-	muscleDiv.setAttribute("style", "background-image:url(/images/muscle/" + emojiNumber + ".png)");
+	muscleDiv.setAttribute("style", "background-image:url(../images/muscle/" + emojiNumber + ".png)");
 
 	var thumbDiv = document.querySelector("header .wrap .righticon");
-	thumbDiv.setAttribute("style", "background-image:url(/images/thumb/" + emojiNumber + ".png)");
+	thumbDiv.setAttribute("style", "background-image:url(../images/thumb/" + emojiNumber + ".png)");
 
 	// emojiNumber++;
 };
