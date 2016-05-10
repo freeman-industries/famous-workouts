@@ -11,7 +11,7 @@ homepage: true
 {% assign shuffled_posts = site.posts | shuffle %}
 
 {% for post in shuffled_posts %}
-	<a href="/{{ post.slug }}">
+	<a href="./{{ post.slug }}">
 		<div class="workout_tile">
 			<img src="./images/workouts/{{ post.slug }}.jpg">
 			<div class="name">{{ post.athlete-name }}</div>
